@@ -1,0 +1,24 @@
+.bg-main {
+    background: linear-gradient(rgba(0, 205, 246, 0.625), rgba(1, 58, 180, 0.805)), url("assets/weather.jpg") fixed top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    min-height: 100vh;
+}
+
+.footer {
+    position: fixed;
+    bottom: 1vh;
+    left: 10vw;
+
+    p {
+        text-align: center;
+        color: white;
+    }
+}
+
+.main-temp {
+    margin-top: -20px;
+    font-size: 6rem;
+    line-height: 6.3rem;
+}
